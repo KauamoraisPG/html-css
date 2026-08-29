@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'veranda';
+    src: url('font/VerandahReverie_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: veranda;
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(82, 30, 0);
+    text-decoration: underline;
+}
+
+h2 {
+   font-family: veranda;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(82, 30, 0);
+    text-decoration: underline;
+}
+
+.sestilo {
+    text-decoration: none;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.94em;
+    text-align:center;
+    font-style: italic;
+    color: rgb(61, 22, 0);
+}
+
+.pprincipal {
+    color: rgb(197, 46, 0);
+}
+
+.psecundario {
+    color: rgb(245, 255, 156);
+}
+
+.pterceiro {
+    color: rgb(255, 18, 18);
+}
+
+body {
+    background-image: linear-gradient(174deg, rgb(204, 131, 109) 25%, rgb(119, 75, 62));
+    background-attachment: fixed;
+}
