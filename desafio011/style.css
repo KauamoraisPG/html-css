@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 70px 0px;
+    text-align: center;
+    background-color: black;
+    h1 {
+        color: white;
+    }
+    p {
+        padding: 20px 0px 0px 0px;
+        color: white;
+    }
+}
+
+.part1 {
+    background-image: url(imagens/joaninha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    p {
+        padding: 35px 30px;
+    }
+}
+
+.part2 {
+    background-image: url(imagens/papeis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fpoema1 {
+    background-color: white;
+
+    & .poema1 {
+        text-align: left;
+        font-size: 2.0em;
+        width: 350px;
+    }
+}
+
+.fpoema1-2 {
+    padding: 25px;
+}
+
+.poema1-2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.295);
+    text-align: left;
+    font-size: 2.0em;
+    width: 350px;
+}
+
+.fpoema1-3 {
+    background-color: white;
+}
+
+.poema1-3 {
+    text-align: left;
+    font-size: 2.0em;
+    width: 350px;
+}
