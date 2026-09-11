@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Form</title>
+    <style>
+        body{
+            background-color: rgb(214, 214, 214);
+        }
+
+        input {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            margin: 10px 2px 10px 2px;
+        }
+
+        fieldset {
+            border: 1px solid black;
+            margin: 15px 5px;
+        }
+
+        input[type="file"] {
+            background-color: rgb(255, 255, 255);
+        }
+
+        option, select {
+            text-align: left;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        optgroup {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <fieldset>  
+            <legend>Sexo:</legend>
+            <input type="radio" name="sexo" id="imas">
+            <label for="imas">Masculino</label>
+            <br>
+            <input type="radio" name="sexo" id="ifem">
+            <label for="ifem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Idade:</legend>
+            <input type="radio" name="idade" id="iid">
+            <label for="iid">Maior que 50 anos</label>
+            <br>
+            <input type="radio" name="idade" id="ima">
+            <label for="ima">Maior que 18 anos</label>
+            <br>
+            <input type="radio" name="idade" id="ime">
+            <label for="ime">Menor que 18 anos</label>
+        </fieldset>
+            <legend>Dados Pessoais</legend>
+                <label for="inom">Nome Completo:</label>
+                <input type="text" name="nome" id="inom" minlength="5" maxlength="60">
+                <br>
+                <label for="icpf">CPF:</label>
+                <input type="tel" name="cpf" id="icpf" maxlength="11" placeholder="xxx.xxx.xxx-xx">
+                <br>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" maxlength="11" placeholder="(xx) xxxxx-xxxx">
+                <br>
+                <label for="ilic">PDF da licença:</label>
+                <input type="file" name="lic" id="ilic">
+                <br>
+                <label for="iobs">Observação: até 200 caracteres</label>
+                <br>
+                <textarea name="obs" id="iobs" cols="30" rows="10" maxlength="200"></textarea>
+                <br>
+                <label for="iest">Profissão:</label>
+                <input type="text" name="est" id="iest" list="lsest">
+                    <datalist id="lsest">
+                        <option>Empreendedor</option>
+                        <option>Youtuber</option>
+                        <option>Streamer</option>
+                        <option>Programador</option>
+                        <option>Lojista</option>
+                    </datalist>
+                    <br>
+                    <label for="ipro">Profissão:</label>
+                    <select id="ipro" list="ipro">
+                    <optgroup label="Loucura">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="AM">Amapá</option>
+                        <option value="BH">Bahia</option>
+                    </optgroup>
+                    </select>
+            </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar dados">
+    </form>
+</body>
+</html>
