@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguer</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="icon" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+        <menu id="icons">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testeando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda enim sapiente et impedit aliquam dolorem, pariatur quidem nobis molestias nam id tempora beatae ducimus, est dignissimos consequuntur eos earum velit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas culpa tempora aliquid repudiandae id ex, doloremque laudantium quaerat ipsum repellat dolorum? Dolorem, eius voluptatem reprehenderit unde quisquam ducimus? Dicta, beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque at sunt possimus natus sint. Quasi natus eligendi ullam dolorum ab ipsum magnam cum expedita enim cumque? Culpa possimus quibusdam voluptatem.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore aut architecto dignissimos ipsum deserunt eos recusandae? Inventore, quaerat quisquam saepe accusamus neque quod quae ex quidem, sed fuga maxime! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid dolorum sequi ut ea possimus consectetur aut harum illo eius, omnis atque, quibusdam ipsum laborum hic, quo quidem natus quasi.</p>
+
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, voluptas? Est corporis consequatur id veritatis qui, sequi deleniti aut autem, eum doloremque voluptatibus distinctio repellendus? Adipisci numquam et excepturi quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequatur beatae minima sed eum illo quia nesciunt amet, error pariatur at, doloribus incidunt in quos. Sed doloribus adipisci eveniet hic.</p>
+        </article>
+    </main>
+    <script>
+        function clickmenu() {
+            if (icons.style.display == 'block') {
+                icons.style.display = 'none'
+            } else {
+                icons.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
