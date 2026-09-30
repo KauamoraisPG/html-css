@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburguer</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="icon" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
-        <menu id="icons">
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -32,11 +33,19 @@
         </article>
     </main>
     <script>
-        function clickmenu() {
-            if (icons.style.display == 'block') {
-                icons.style.display = 'none'
+        function mudoutamanho() {
+            if (window.innerWidth >= '768') {
+                menu.style.display = 'block'
             } else {
-                icons.style.display = 'block'
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickmenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
             }
         }
     </script>
