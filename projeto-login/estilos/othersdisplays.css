@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 800px) and (max-width:1024px) {
+@media screen and (min-width: 900px) and (max-width:1440px) {
     .login {
         width: 70%;
         height: 87%;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1440px) {
 
     .login {
         width: 990px;
