@@ -8,8 +8,113 @@
 }
 
 * {
-    background-color: #254757;
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    font-weight: 500;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #005994, #00a4b9);
+    background-color: #0055b6;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login {
+    color: #b9f8fa;
+    transition: width 0.4s, height 0.4s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor1);
+    width: 70vw;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+}
+
+.foto {
+    height: 250px;
+    background: url(../imagens/3imagem.jpg) left bottom, no-repeat, fixed;
+    background-size: cover;
+}
+
+.formulario {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+input {
+    position: relative;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #b9f8fa;
+    background-color: var(--co2);
+    margin: 10px 5px;
+}
+
+.inlogin, .senha {
+    background-color: #006b9c;
+}
+
+input::placeholder {
+    color: #b9f8fa7c;
+}
+
+.entrar {
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 7px;
+    color: #b9f8fa;
+    padding: 7px;
+}
+
+.entrar:hover, .repass:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #006696;
+}
+
+span {
+    z-index: 0;
+    height: 25px;
+    padding: 0px 5px;
+    background-color: var(--cor4);
+    position: relative;
+    top: 6px;
+    left: 10px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.repass {
+    margin: 3px 0px;
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 0.85em;
+    color: #b9f8fa;
+    padding: 7px;
+    border: 1px solid #b9f8fa;
+    border-radius: 7px;
 }
