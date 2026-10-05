@@ -57,7 +57,12 @@ main {
     justify-content: center;
 }
 
+p {
+    margin-bottom: 50px;
+}
+
 .inputs {
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -69,6 +74,7 @@ input {
     border: 1px solid #b9f8fa;
     background-color: var(--co2);
     margin: 5px;
+    width: 70%;
 }
 
 .inlogin, .senha {
@@ -82,11 +88,11 @@ input::placeholder {
 
 .entrar {
     display: block;
-    margin: 10px 0px;
-    width: 100%;
+    width: 80%;
     border-radius: 7px;
     color: #b9f8fa;
     padding: 7px;
+    margin: 20px auto 10px;
 }
 
 .entrar:hover, .repass:hover {
@@ -108,7 +114,7 @@ span {
 }
 
 .repass {
-    margin: 3px 0px;
+    margin: 0px auto;
     display: block;
     text-decoration: none;
     font-weight: normal;
@@ -117,4 +123,5 @@ span {
     padding: 7px;
     border: 1px solid #b9f8fa;
     border-radius: 7px;
+    width: 80%;
 }
