@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 900px) and (max-width:1440px) {
+@media screen and (min-width: 1024px) {
     .login {
         width: 70%;
         height: 70%;;
@@ -16,27 +16,6 @@
     .formulario {
         float: right;
         width: 70%;
-        height: 100%;
-    }
-}
-
-@media screen and (min-width:1440px) {
-
-    .login {
-        width: 990px;
-        height: 70%;
-    }
-
-    .foto {
-        background-position: left bottom;
-        float: left;
-        width: 40%;
-        height: 100%;
-    }
-
-    .formulario {
-        float: right;
-        width: 60%;
         height: 100%;
     }
 }
