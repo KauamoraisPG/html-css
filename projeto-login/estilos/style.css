@@ -44,7 +44,7 @@ main {
 }
 
 .foto {
-    height: 200px;
+    height: 30%;
     background: url(../imagens/3imagem.jpg) left bottom, no-repeat, fixed;
     background-size: cover;
 }
