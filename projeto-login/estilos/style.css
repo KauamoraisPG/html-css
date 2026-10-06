@@ -15,11 +15,14 @@
 }
 
 body, html {
-    font-weight: 500;
     width: 100vw;
     height: 100vh;
+}
+
+body {
     background-image: linear-gradient(to top, #005994, #00a4b9);
     background-color: #0055b6;
+    font-weight: 500;
 }
 
 main {
@@ -29,17 +32,17 @@ main {
 
 .login {
     color: #b9f8fa;
-    transition: width 0.4s, height 0.4s;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: var(--cor1);
-    width: 70%;
-    height: 70%;
+    width: 350px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s, height 0.4s;
 }
 
 .foto {
@@ -49,8 +52,6 @@ main {
 }
 
 .formulario {
-    width: 100%;
-    height: 100%;
     padding:20px;
     text-align: center;
 }
@@ -60,7 +61,6 @@ p {
 }
 
 .inputs {
-    width: 100%;
     margin-top: 15px;
 }
 
@@ -72,7 +72,6 @@ input {
     border: 1px solid #b9f8fa;
     background-color: var(--co2);
     margin: 5px;
-    width: 70%;
 }
 
 .inlogin, .senha {
