@@ -13,15 +13,17 @@ body, html {
 
 body {
     background-color: rgb(255, 106, 106);
-    color: rgb(143, 52, 0);
+    color: rgb(109, 0, 252);
     padding: 20px;
 }
 
 .container {
-    background-color: salmon;
+    background-color: rgb(153, 15, 0);
+    display: flex;
 }
 
 .item {
+    flex: auto;
     background-color: lightblue;
     border: 1px solid black;
 }
