@@ -34,8 +34,8 @@ main {
     color: #b9f8fa;
     position: absolute;
     background-color: var(--cor1);
-    width: 350px;
-    height: 600px;
+    width: 70%;
+    height: 70%;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
@@ -52,15 +52,22 @@ main {
 }
 
 .formulario {
+    width: 100%;
     padding:20px;
     text-align: center;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 p {
-    margin-bottom: 50px;
+    font-size: 1em;
+    margin-bottom: 30px;
 }
 
 .inputs {
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -72,6 +79,7 @@ input {
     border: 1px solid #b9f8fa;
     background-color: var(--co2);
     margin: 5px;
+    width: 50%;
 }
 
 .inlogin, .senha {
@@ -90,6 +98,7 @@ input::placeholder {
     color: #b9f8fa;
     padding: 7px;
     margin: 20px auto 10px;
+    font-size: 0.85em;
 }
 
 .entrar:hover, .repass:hover {
