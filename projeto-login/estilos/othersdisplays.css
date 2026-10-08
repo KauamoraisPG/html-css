@@ -2,6 +2,11 @@
 
 
 @media screen and (max-width:313px) {
+
+    .login {
+        transition: 0.4s;
+    }
+    
     .senha, .inlogin {
         width: 60%;
     }
@@ -10,15 +15,20 @@
 @media screen and (min-width:1024px) {
 
     .login {
+        margin: 100px;
         display: flex;
         flex-flow: row nowrap;
-        width: 70%;
+        width: 1150px;
         height: 70%;
+    }
+
+    .senha, .inlogin {
+        width: 60%;
     }
 
     .foto {
         background-position: left bottom;
-        width: 40%;
+        width: 35%;
         height: 100%;
     }
 
@@ -27,7 +37,7 @@
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 65%;
         height: 100%;
     }
 }
