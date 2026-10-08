@@ -12,18 +12,23 @@ body, html {
 } 
 
 body {
-    background-color: rgb(255, 106, 106);
+    background-color: rgb(133, 133, 133);
     color: rgb(109, 0, 252);
-    padding: 20px;
 }
 
 .container {
-    background-color: rgb(153, 15, 0);
+    background-color: rgb(255, 218, 7);
     display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
 }
 
 .item {
-    flex: auto;
-    background-color: lightblue;
-    border: 1px solid black;
+    box-shadow: 1px 1px 4px rgb(255, 0, 221);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(193, 224, 255);
+    border: 2px solid rgb(0, 47, 255);
 }

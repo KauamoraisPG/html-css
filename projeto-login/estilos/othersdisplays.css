@@ -4,20 +4,23 @@
 @media screen and (min-width:1024px) {
 
     .login {
-        width: 1000px;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 70%;
         height: 70%;
     }
 
     .foto {
         background-position: left bottom;
-        float: left;
         width: 40%;
         height: 100%;
     }
 
     .formulario {
-        margin-top: 18%;
-        float: right;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
         width: 60%;
         height: 100%;
     }
