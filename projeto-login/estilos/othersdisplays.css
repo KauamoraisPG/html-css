@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 
+@media screen and (max-width:313px) {
+    .senha, .inlogin {
+        width: 60%;
+    }
+}
+
 @media screen and (min-width:1024px) {
 
     .login {
