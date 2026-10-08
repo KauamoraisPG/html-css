@@ -84,7 +84,7 @@ input {
     z-index: 1;
     padding: 3px;
     border-radius: 0px 5px 5px 0px;
-    border: 1px solid #b9f8fa;
+    border: 2px solid #b9f8fa;
     background-color: var(--co2);
     margin: 5px;
 }
@@ -92,6 +92,7 @@ input {
 .inlogin, .senha {
     color: #b9f8fa;
     background-color: #006b9c;
+    height: 27px;
 }
 
 input::placeholder {
@@ -99,6 +100,7 @@ input::placeholder {
 }
 
 .entrar {
+    border: 1px solid #b9f8fa;
     display: block;
     width: 80%;
     border-radius: 7px;
@@ -115,13 +117,13 @@ input::placeholder {
 }
 
 span {
+    height: 27px;
     border: 1px solid #b9f8fac0;;
     z-index: 0;
-    height: 25px;
     padding: 0px 5px;
     background-color: var(--cor4);
     position: relative;
-    top: 7px;
+    top: 6px;
     left: 11px;
     border-radius: 10px 0px 0px 0px;
 }
