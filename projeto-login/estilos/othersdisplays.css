@@ -3,7 +3,17 @@
 
 @media screen and (max-width:313px) {
 
+    .foto {
+        height: 20%;
+    }
+
+    .formulario {
+        height: 80%;
+    }
+
     .login {
+        height: 80%;
+        margin: 50px;
         transition: 0.4s;
     }
     
