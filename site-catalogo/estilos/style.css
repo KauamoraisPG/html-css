@@ -43,7 +43,7 @@ ul li {
     display: inline-block;
 
     & a {
-    color: var(--cor1);
+    color: #ffffff;
     text-decoration: none;
     padding: 10px;
     font-weight: 700;
@@ -65,12 +65,15 @@ h1 {
 }
 
 .banner p {
+    font-size: 18px;
     font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .banner {
-    color: #ffd271;
-    text-shadow: 2px 2px 1px rgba(8, 8, 8, 0.6);
+    color: rgb(255, 210, 113);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -80,16 +83,19 @@ h1 {
     height: 300px;
     background: rgba(194, 142, 0, 0.795) url(../imagens/espelho-retangular-grande.jpg) left center no-repeat;
     background-size: cover;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
 }
 
 .vms-cima {
+    font-size: 13px;
     text-shadow: none;
-    color: var(--cor1);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 20px;
-    background-color: var(--cor4);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
+    background-color: rgb(216, 181, 106);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.451);
 }
 
 .vms-cima:hover {
@@ -103,7 +109,7 @@ h1 {
 }
 
 .sobre-nos {
-    color: #000a68;
+    color: #004a86;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
     text-justify: auto;
     text-align: left;
@@ -117,7 +123,7 @@ h1 {
     margin: auto;
     margin-top: 15px;
     background-color: rebeccapurple;
-    width: 90%;
+    width: 100%;
     height: 250px;
     background: url(../imagens/artesao.png) center no-repeat;
     background-size: cover;
@@ -167,6 +173,7 @@ h1 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    
     color: white;
     background-color: rgb(39, 39, 39);
     padding: 20px;
@@ -177,7 +184,37 @@ h1 {
 }
 
 .contato-rodape a {
-    padding: 3px;
+    padding: 5px;
     color: white;
 
+}
+
+#ft1 {
+    background: url(../imagens/espelho-retangular.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft2 {
+    background: url(../imagens/espelho-redondo.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft3 {
+    background: url(../imagens/espelho-oval.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft4 {
+    background: url(../imagens/espelho-organico.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft5 {
+    background: url(../imagens/espelho-personalizado.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft6 {
+    background: url(../imagens/espelho-personalizado2.png) center no-repeat;
+    background-size: cover;
 }
