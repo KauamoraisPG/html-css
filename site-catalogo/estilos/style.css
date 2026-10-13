@@ -142,7 +142,7 @@ h1 {
     align-items: center;
     padding: 10px;
     width: 100%;
-    height: 800px;
+    height: 700px;
 }
 
 .foto {
@@ -157,8 +157,8 @@ h1 {
     color: var(--cor1);
     border-radius: 50px;
     background-color: var(--cor4);
-    padding: 4px 12px;
-    font-size: 19px;
+    padding: 5px 10px;
+    font-size: 15px;
     text-decoration: none;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
 }
@@ -186,7 +186,6 @@ h1 {
 .contato-rodape a {
     padding: 5px;
     color: white;
-
 }
 
 #ft1 {
