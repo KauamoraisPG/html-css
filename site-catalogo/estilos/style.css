@@ -20,9 +20,6 @@ body, html {
     width: 100dvw;
     height: 100dvh;
     overflow-x: hidden;
-}
-
-body {
     background-color: #acd3ff;
 }
 
@@ -60,15 +57,18 @@ h1 {
     font-weight: 1000;
 }
 
-.banner h1 {
+.banner {
+    
+    & h1 {
     margin-bottom: 5px;
-}
+    }
 
-.banner p {
+    & p {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 15px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    }
 }
 
 .banner {
@@ -84,6 +84,13 @@ h1 {
     background: rgba(194, 142, 0, 0.795) url(../imagens/espelho-retangular-grande.jpg) left center no-repeat;
     background-size: cover;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+
+    & p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    }
 }
 
 .vms-cima {
@@ -104,10 +111,6 @@ h1 {
     transition: 0.3s;
 }
 
-.sobre-nos h1 {
-    margin-bottom: 10px;
-}
-
 .sobre-nos {
     color: #004a86;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
@@ -117,6 +120,10 @@ h1 {
     width: 100%;
     background: url(imagens/louvre.jpg) center no-repeat;
     background-size: cover;
+
+    & h1 {
+        margin-bottom: 10px;
+    }
 }
 
 .img-sn {
@@ -150,6 +157,15 @@ h1 {
     width: 180px;
     height: 180px;
     background-color: rebeccapurple;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.45);
+}
+
+.foto:hover {
+    scale: 1.2;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+    transition: 0.3s;
 }
 
 .vms {
@@ -179,8 +195,10 @@ h1 {
     padding: 20px 50px;
 }
 
-.material-symbols-outlined {
-    font-size: 10px;
+.contato-rodape .material-symbols-outlined {
+    position: relative;
+    scale: 0.5;
+    top: 9px;
 }
 
 .horario p {

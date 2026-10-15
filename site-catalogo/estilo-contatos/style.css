@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+:root {
+    --cor1: #d8f1ff;
+    --cor2: #7CBAFF;
+    --cor3: #2B8FFF;
+    --cor4: #0D7DFB;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Didact Gothic", system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    width: 100dvw;
+    height: 100dvh;
+    overflow-x: hidden;
+    background-color: #acd3ff;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #53a3ff;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+
+    & a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
+    }
+}
+
+main {
+
+    & p {
+    font-weight: 500;
+    font-size: 16px;
+    }
+
+    & h1 {  
+    margin: 20px 0px 0px 0px; 
+    text-align: center;
+    color: #000a68;
+}
+}
+
+.contatos a {
+    color: black;
+
+}
+
+.instagram, .whatsapp, .email {
+    height: 200px;
+    background-color: #000a68;
+    margin: 5px 5px 15px 5px;
+}
+
+.container-titulo {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding: 10px 0px 0px 0px;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    scale: 0.6;
+    top: 2px;
+}
+
+.rodape {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 11px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    padding: 20px 50px;
+}
+
+.horario p {
+    font-size: 10px;
+    padding: 3px 0px;
+}
+
+.contato-rodape a {
+    font-size: 10px;
+    padding: 5px 0px;
+    color: white;
+}
+
+.contato-rodape .material-symbols-outlined {
+    position: relative;
+    scale: 0.5;
+    top: 9px;
+}
+
+#ft1 {
+    background: url(../imagens/espelho-retangular.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft2 {
+    background: url(../imagens/espelho-redondo.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft3 {
+    background: url(../imagens/espelho-oval.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft4 {
+    background: url(../imagens/espelho-organico.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft5 {
+    background: url(../imagens/espelho-personalizado.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft6 {
+    background: url(../imagens/espelho-personalizado2.png) center no-repeat;
+    background-size: cover;
+}
