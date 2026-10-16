@@ -2,16 +2,106 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
-@media screen and (max-width: 319px) {
-    .foto {
-        width: 120px;
-        height: 120px;
-    }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
     .foto {
         width: 140px;
         height: 140px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .foto {
+        width: 160px;
+        height: 160px;
+    }
+
+    .catalogo {
+
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 675px) {
+    .foto {
+        width: 200px;
+        height: 200px;
+    }
+
+    .catalogo {
+        height: 1400px;
+    }
+}
+
+@media screen and (min-width: 676px) and (max-width: 790px) {
+    .foto {
+        width: 200px;
+        height: 200px;
+    }
+
+    .catalogo {
+        height: 1100px;
+    }
+}
+
+@media screen and (min-width: 791px) and (max-width: 950px) {
+    .foto {
+        width: 220px;
+        height: 220px;
+    }
+
+    .catalogo {
+        
+    }
+
+    .vms {
+        scale: 1.2;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1148px) {
+    .foto {
+        width: 270px;
+        height: 270px;
+    }
+
+    .catalogo {
+        
+    }
+
+    .vms {
+        scale: 1.2;
+    }
+}
+
+@media screen and (min-width: 1148px) {
+
+    .foto {
+        width: 300px;
+        height: 250px;
+        margin: 0px 10px;
+    }
+    
+    .catalogo {
+        
+    }
+
+    .vms {
+        scale: 1.2;
+    }
+}
+
+@media screen and (min-width: 1311px) {
+
+    .foto {
+        width: 300px;
+        height: 250px;
+        margin: 0px 10px;
+    }
+    
+    .catalogo {
+        height: 1000px;
+    }
+
+    .vms {
+        scale: 1.2;
     }
 }

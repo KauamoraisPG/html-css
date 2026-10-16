@@ -24,12 +24,15 @@ body, html {
 }
 
 header {
+    position: relative;
     padding: 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     background-color: #53a3ff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+    z-index: 1;
 }
 
 .logo {
@@ -58,6 +61,7 @@ h1 {
 }
 
 .banner {
+    z-index: 0;
     
     & h1 {
     margin-bottom: 5px;
@@ -130,7 +134,7 @@ h1 {
     margin: auto;
     margin-top: 15px;
     background-color: rebeccapurple;
-    width: 100%;
+    width: 80vw;
     height: 250px;
     background: url(../imagens/artesao.png) center no-repeat;
     background-size: cover;
@@ -149,13 +153,13 @@ h1 {
     align-items: center;
     padding: 10px;
     width: 100%;
-    height: 700px;
+    height: 750px;
 }
 
 .foto {
     margin: 5px;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background-color: rebeccapurple;
     border-radius: 10px;
     overflow: hidden;
@@ -169,13 +173,16 @@ h1 {
 }
 
 .vms {
-    margin: 5px 90px;
+    display: block;
+    width: 85px;
+    margin: 0px auto 20px;
     color: var(--cor1);
     border-radius: 50px;
     background-color: var(--cor4);
     padding: 5px 10px;
     font-size: 15px;
     text-decoration: none;
+    text-align: center;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
 }
 
@@ -188,11 +195,15 @@ h1 {
 .rodape {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 11px;
     color: white;
     background-color: rgb(39, 39, 39);
-    padding: 20px 50px;
+    padding: 10px 50px;
+}
+
+.horario {
+    margin-right: 20%;
 }
 
 .contato-rodape .material-symbols-outlined {
@@ -206,10 +217,20 @@ h1 {
     padding: 3px 0px;
 }
 
-.contato-rodape a {
+.contato-rodape {
+
+    & p {
+    position: relative;
+    height: 16px;
+    padding: 0px;
+    margin: 0px;
+    top: -12px;
+    }
+
+    & a {
     font-size: 10px;
-    padding: 5px 0px;
     color: white;
+    }
 }
 
 #ft1 {

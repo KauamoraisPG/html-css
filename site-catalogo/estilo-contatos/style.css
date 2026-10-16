@@ -30,6 +30,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #53a3ff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+    z-index: 1;
 }
 
 .logo {
@@ -55,22 +57,31 @@ main {
     font-size: 16px;
     }
 
-    & h1 {  
+    & h1 {
     margin: 20px 0px 0px 0px; 
     text-align: center;
     color: #000a68;
 }
 }
 
-.contatos a {
+.contatos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    & a {
     color: black;
+    }
 
 }
 
 .instagram, .whatsapp, .email {
-    height: 200px;
+    width: 85vw;
+    height: 50vw;
     background-color: #000a68;
     margin: 5px 5px 15px 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 }
 
 .container-titulo {
@@ -79,6 +90,14 @@ main {
     align-items: center;
     display:flex;
     padding: 10px 0px 0px 0px;
+
+        & a {
+            padding: 7px 0px;
+        }
+}
+
+.container-titulo a:hover {
+    color: rgb(0, 25, 250);
 }
 
 .material-symbols-outlined {
@@ -88,13 +107,24 @@ main {
 }
 
 .rodape {
+    margin-top: 5vw;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 11px;
     color: white;
     background-color: rgb(39, 39, 39);
-    padding: 20px 50px;
+    padding: 10px 50px;
+}
+
+.horario {
+    margin-right: 20%;
+}
+
+.contato-rodape .material-symbols-outlined {
+    position: relative;
+    scale: 0.5;
+    top: 9px;
 }
 
 .horario p {
@@ -102,16 +132,20 @@ main {
     padding: 3px 0px;
 }
 
-.contato-rodape a {
-    font-size: 10px;
-    padding: 5px 0px;
-    color: white;
-}
+.contato-rodape {
 
-.contato-rodape .material-symbols-outlined {
+    & p {
     position: relative;
-    scale: 0.5;
-    top: 9px;
+    height: 16px;
+    padding: 0px;
+    margin: 0px;
+    top: -12px;
+    }
+
+    & a {
+    font-size: 10px;
+    color: white;
+    }
 }
 
 #ft1 {

@@ -1,17 +1,28 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-
-@media screen and (max-width: 319px) {
-    .foto {
-        width: 120px;
-        height: 120px;
-    }
+@media screen and (min-width: 610px) and (max-width: 790px) {
+    .instagram, .whatsapp, .email {
+    width: 500px;
+    height: 320px;
+    background-color: #000a68;
+    margin: 5px 5px 15px 5px;
+}
 }
 
-@media screen and (max-width: 400px) {
-    .foto {
-        width: 140px;
-        height: 140px;
-    }
+@media screen and (min-width: 790px) and (max-width: 1080px) {
+    .instagram, .whatsapp, .email {
+    width: 650px;
+    height: 420px;
+    background-color: #000a68;
+    margin: 5px 5px 15px 5px;
+}
+}
+
+@media screen and (min-width: 1080px) {
+    .instagram, .whatsapp, .email {
+    width: 950px;
+    height: 470px;
+    background-color: #000a68;
+    margin: 5px 5px 15px 5px;
+}
 }

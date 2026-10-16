@@ -30,6 +30,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #53a3ff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+    z-index: 1;
 }
 
 .logo {
@@ -48,8 +50,8 @@ ul li {
     }
 }
 
-main {
-
+section {
+        
     & p {
     font-weight: 500;
     font-size: 16px;
@@ -105,11 +107,21 @@ main {
 .rodape {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 11px;
     color: white;
     background-color: rgb(39, 39, 39);
-    padding: 20px 50px;
+    padding: 10px 50px;
+}
+
+.horario {
+    margin-right: 20%;
+}
+
+.contato-rodape .material-symbols-outlined {
+    position: relative;
+    scale: 0.5;
+    top: 9px;
 }
 
 .horario p {
@@ -117,16 +129,20 @@ main {
     padding: 3px 0px;
 }
 
-.contato-rodape a {
-    font-size: 10px;
-    padding: 5px 0px;
-    color: white;
-}
+.contato-rodape {
 
-.contato-rodape .material-symbols-outlined {
+    & p {
     position: relative;
-    scale: 0.5;
-    top: 9px;
+    height: 16px;
+    padding: 0px;
+    margin: 0px;
+    top: -12px;
+    }
+
+    & a {
+    font-size: 10px;
+    color: white;
+    }
 }
 
 #ft1 {

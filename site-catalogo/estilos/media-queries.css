@@ -2,16 +2,156 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
-@media screen and (max-width: 319px) {
-    .foto {
-        width: 120px;
-        height: 120px;
-    }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
     .foto {
         width: 140px;
         height: 140px;
+    }
+
+    .sobre-nos {
+        padding-bottom: 20px;
+    }
+
+    .img-sn {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .foto {
+        width: 160px;
+        height: 160px;
+    }
+
+    .sobre-nos {
+        padding-bottom: 20px;
+    }
+
+    .img-sn {
+        margin-top: 0px;
+    }
+
+    .catalogo {
+        height: 640px;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 790px) {
+    .foto {
+        width: 180px;
+        height: 180px;
+    }
+
+    .sobre-nos {
+        padding-bottom: 20px;
+    }
+
+    .img-sn {
+        margin-top: 0px;
+        height: 350px;
+        width: 75vw;
+    }
+
+    .catalogo {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 791px) and (max-width: 950px) {
+    .foto {
+        width: 220px;
+        height: 220px;
+    }
+
+    .catalogo {
+        height: 600px;
+    }
+
+    .img-sn {
+        margin-top: 0px;
+        height: 450px;
+        width: 75vw;
+    }
+
+    .sobre-nos {
+        padding-bottom: 20px;
+    }
+
+    .vms {
+        scale: 1.2;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1148px) {
+    .foto {
+        width: 270px;
+        height: 270px;
+    }
+
+    .container-sobre-nos {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 35px 0px;
+    }
+
+    .sobre-nos {
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .img-sn {
+        margin-top: 0px;
+        height: 400px;
+        margin: 0px 40px 0px 10px;
+    }
+
+    .catalogo {
+        height: 700px;
+    }
+
+    .vms {
+        scale: 1.2;
+    }
+}
+
+@media screen and (min-width: 1148px) {
+.banner {
+    padding: 0px 100px;
+    height: 350px;
+}
+
+    .foto {
+        width: 300px;
+        height: 250px;
+        margin: 0px 10px;
+    }
+
+    .container-sobre-nos {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 35px 0px 50px 0px;
+    }
+
+    .sobre-nos {
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .img-sn {
+        height: 400px;
+        margin: 0px 40px 0px 10px;
+    }
+    
+    .catalogo {
+        flex-flow: row nowrap;
+        height: 350px;
+    }
+
+    .vms {
+        scale: 1.2;
     }
 }
