@@ -64,6 +64,32 @@ section {
 }
 }
 
+.sobre-nos {
+    color: #004a86;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
+    text-justify: auto;
+    text-align: left;
+    padding: 40px 15px;
+    width: 100%;
+    background: url(imagens/louvre.jpg) center no-repeat;
+    background-size: cover;
+
+    & h1 {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
+
+.img-sn {
+    margin: auto;
+    margin-top: 15px;
+    background-color: rebeccapurple;
+    width: 80vw;
+    height: 250px;
+    background: url(../imagens/banner-catalogo.png) center no-repeat;
+    background-size: cover;
+}
+
 .catalogo {
     display: flex;
     flex-flow: row wrap;
@@ -72,7 +98,7 @@ section {
     align-items: center;
     padding: 10px;
     width: 100%;
-    height: 1200px;
+    height: 1400px;
 }
 
 .foto {
@@ -166,11 +192,51 @@ section {
 }
 
 #ft5 {
-    background: url(../imagens/espelho-personalizado.png) center no-repeat;
+    background: url(../imagens/espelho-janela.png) center no-repeat;
     background-size: cover;
 }
 
 #ft6 {
     background: url(../imagens/espelho-personalizado2.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft7 {
+    background: url(../imagens/espelho-meia-lua-flutuante.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft8 {
+    background: url(../imagens/espelho-redondo-flutuante.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft9 {
+    background: url(../imagens/espelho-retangular-flutuante.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft10 {
+    background: url(../imagens/espelho-organico-flutuante.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft11 {
+    background: url(../imagens/espelho-oval-flutuante.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft12 {
+    background: url(../imagens/espelho-janela-flutuante.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft13 {
+    background: url(../imagens/espelho-borda-borracha.png) center no-repeat;
+    background-size: cover;
+}
+
+#ft14 {
+    background: url(../imagens/espelho-borda-couro.png) center no-repeat;
     background-size: cover;
 }
