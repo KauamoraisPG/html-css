@@ -20,7 +20,7 @@ body, html {
     width: 100dvw;
     height: 100dvh;
     overflow-x: hidden;
-    background-color: #acd3ff;
+    background-image: linear-gradient(to bottom, #acd3ff 94%, #3979c28f);
 }
 
 header {
@@ -71,8 +71,6 @@ section {
     text-align: left;
     padding: 40px 15px;
     width: 100%;
-    background: url(imagens/louvre.jpg) center no-repeat;
-    background-size: cover;
 
     & h1 {
         text-align: left;
@@ -81,6 +79,7 @@ section {
 }
 
 .img-sn {
+    border-radius: 10px 100px 10px 100px;
     margin: auto;
     margin-top: 15px;
     background-color: rebeccapurple;
@@ -88,6 +87,7 @@ section {
     height: 250px;
     background: url(../imagens/banner-catalogo.png) center no-repeat;
     background-size: cover;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
 }
 
 .catalogo {

@@ -20,7 +20,7 @@ body, html {
     width: 100dvw;
     height: 100dvh;
     overflow-x: hidden;
-    background-color: #acd3ff;
+    background-image: linear-gradient(to bottom, #acd3ff 94%, #3979c28f);
 }
 
 header {
@@ -122,15 +122,19 @@ h1 {
     text-align: left;
     padding: 40px 15px;
     width: 100%;
-    background: url(imagens/louvre.jpg) center no-repeat;
-    background-size: cover;
 
     & h1 {
         margin-bottom: 10px;
     }
+
+    & a {
+        font-weight: bold;
+        color: #004177;
+    }
 }
 
 .img-sn {
+    border-radius: 10px 100px 10px 100px;
     margin: auto;
     margin-top: 15px;
     background-color: rebeccapurple;
