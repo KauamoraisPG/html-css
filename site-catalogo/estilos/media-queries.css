@@ -37,6 +37,11 @@
 }
 
 @media screen and (min-width: 610px) and (max-width: 790px) {
+    .banner {
+        height: 280px;
+        padding: 0px 50px;
+    }
+
     .foto {
         width: 180px;
         height: 180px;
@@ -57,7 +62,12 @@
     }
 }
 
-@media screen and (min-width: 791px) and (max-width: 950px) {
+@media screen and (min-width: 790px) and (max-width: 950px) {
+    .banner {
+        background-image: url(../imagens/espelho-retangular-borda.png);
+        padding: 0px 50px;
+    }
+
     .foto {
         width: 220px;
         height: 220px;
@@ -76,13 +86,13 @@
     .sobre-nos {
         padding-bottom: 20px;
     }
-
-    .vms {
-        scale: 1.2;
-    }
 }
 
-@media screen and (min-width: 951px) and (max-width: 1148px) {
+@media screen and (min-width: 950px) and (max-width: 1148px) {
+    .banner {
+        background-image: url(../imagens/espelho-retangular-borda.png);
+        padding: 0px 50px;
+    }
     .foto {
         width: 270px;
         height: 270px;
@@ -110,17 +120,22 @@
     .catalogo {
         height: 700px;
     }
-
-    .vms {
-        scale: 1.2;
-    }
 }
 
 @media screen and (min-width: 1148px) {
-.banner {
-    padding: 0px 100px;
-    height: 350px;
-}
+    .banner {
+    height: 400px;
+    background-image: url(../imagens/espelho-retangular-borda.png);
+    padding: 0px 50px;
+
+        & p {
+            font-size: 17px;
+        }
+
+        & h1 {
+            font-size: 35px;
+        }
+    }
 
     .foto {
         width: 300px;
@@ -142,16 +157,12 @@
     }
 
     .img-sn {
-        height: 400px;
+        height: 450px;
         margin: 0px 40px 0px 10px;
     }
     
     .catalogo {
         flex-flow: row nowrap;
         height: 350px;
-    }
-
-    .vms {
-        scale: 1.2;
     }
 }
