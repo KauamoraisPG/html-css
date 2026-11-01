@@ -3,6 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
+#appears {
+            animation: appears 1.4s cubic-bezier(0.50, 0, 0.40, 1) forwards;
+        }
+
+        @keyframes appears {
+            0% {
+                transform: translateX(-101%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0%);
+                opacity: 100;
+            }
+        }
+
 :root {
     --cor1: #d8f1ff;
     --cor2: #7CBAFF;
@@ -51,10 +67,15 @@ ul li {
     & a {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px 10px;
     font-weight: 700;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.85);
+    transition: 0.3s;
+    border-radius: 10px;
     }
+}
+
+li a:hover {
+    background-color: #7CBAFF;
 }
 
 section {
@@ -100,6 +121,11 @@ h1 {
     background: url(../imagens/banner-catalogo.png) center no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+.img-sn:hover {
+    border-radius:  100px 20px 100px 20px ;
 }
 
 .catalogo {
@@ -125,6 +151,7 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
 
     & p {
     width: 100%;
@@ -139,7 +166,10 @@ h1 {
 .foto:hover {
     scale: 1.2;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-    transition: 0.3s;
+}
+
+footer {
+    background-color: rgb(39, 39, 39);
 }
 
 .rodape {
@@ -148,7 +178,6 @@ h1 {
     justify-content: flex-start;
     font-size: 11px;
     color: white;
-    background-color: rgb(39, 39, 39);
     padding: 10px 50px;
 }
 

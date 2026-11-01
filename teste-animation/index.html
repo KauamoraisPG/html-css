@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de animação em CSS</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 100dvw;
+            height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100dvw;
+            height: 100dvh;
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            color: black;
+            background-color: wheat;
+            padding: 20px;
+            border-radius: 20px 100px 20px 100px;
+            transition: all 0.4s ease-in-out;
+        }
+
+        h1:hover {
+                border-radius: 100px 20px 100px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h1>Teste de Animação degradê</h1>
+    </div>
+</body>
+</html>
