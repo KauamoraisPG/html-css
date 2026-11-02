@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio Kaua Morais</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/1710c92549.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="menu">
+        <nav class="menu" id="appears">
             <ul>
                 <li><a href=""><i class="fa-solid fa-house"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-brain"></i></a></li>
@@ -20,20 +21,18 @@
         </nav>
     </header>
     <main>
-        <section class="ficha">
+        <section class="ficha" id="appears">
             <img src="imagens/dino.jpg" alt="" class="foto">
             <h1>Kaua Morais</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, recusandae modi! Nostrum impedit, sequi minus, reiciendis similique a quia aut pariatur iste ex qui distinctio! Quidem ut amet unde incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident labore harum! Et quam quasi veritatis beatae, ipsa nostrum esse earum neque, a quae minima facere similique facilis laboriosam! Porro!</p>
             <div class="social">
                 <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://github.com/KauamoraisPG" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="" target="_blank"><i class="fa-solid fa-globe"></i></a>
             </div>
         </section>
 
-        <section class="detalhes">
+        <section class="detalhes" id="appears">
             <article class="video">
                 <h2><i class="fa-solid fa-handshake"></i>Deixe-me apresentar</h2>
                 <div class="video-container"></div>
@@ -137,71 +136,87 @@
 
             </article> <!--fim article.skills-->
 
-            <article class="formacao">
+            <article class="formacao" id="appears">
 
                 <h2><i class="fa-solid fa-graduation-cap"></i>Minhas formações</h2>
                 <div class="formacao-container">
                     <div class="curso">
                         <p class="periodo">2026 - 2026</p>
                         <h3 class="instituicao">Curso em video</h3>
-                        <p class="titulacao">Desenvolvedor Web em HTML e CSS3</p>
+                        <p class="titulacao">Curso de desenvolvimento Web em HTML e CSS3 modulo 1</p>
                     </div>
 
                     <div class="curso">
                         <p class="periodo">2026 - 2026</p>
                         <h3 class="instituicao">Curso em video</h3>
-                        <p class="titulacao">Desenvolvedor Web em HTML e CSS3</p>
+                        <p class="titulacao">Curso de desenvolvimento Web em HTML e CSS3 modulo 2</p>
                     </div>
 
                     <div class="curso">
                         <p class="periodo">2026 - 2026</p>
                         <h3 class="instituicao">Curso em video</h3>
-                        <p class="titulacao">Desenvolvedor Web em HTML e CSS3</p>
+                        <p class="titulacao">Curso de desenvolvimento Web em HTML e CSS3 modulo 3</p>
                     </div>
+
+                    <div class="curso">
+                        <p class="periodo">2026 - 2026</p>
+                        <h3 class="instituicao">Curso em video</h3>
+                        <p class="titulacao">Curso de desenvolvimento Web em HTML e CSS3 modulo 4</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2026 - 2026</p>
+                        <h3 class="instituicao">Curso em video</h3>
+                        <p class="titulacao">Curso de desenvolvimento Web em HTML e CSS3 modulo 5</p>
+                    </div>
+
                 </div>
 
             </article> <!--fim article.formacao-->
 
-            <article class="projetos">
+            <article class="projetos" id="appears">
 
                 <h2><i class="fa-solid fa-list-check"></i>Meus projetos</h2>
                 <div class="projeto-container">
                     <div class="projeto">
-                        <img src="imagens/projeto-android.png" alt="" class="foto">
+                        <a href="https://kauamoraispg.github.io/html-css/projeto-android/index.html" target="_blank" class="foto" style="background-image: url(/imagens/projeto-android.png);"></a>
                         <div class="projeto-info">
                             <p class="periodo">2026</p>
                             <h3 class="titulo">Projeto Android</h3>
                             <p>Projeto construido para treinar a construção de um site informativo.</p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit adipisci suscipit, earum perspiciatis maxime iste neque harum, consequuntur esse fugit necessitatibus dignissimos commodi voluptates obcaecati, animi repudiandae quia reiciendis dicta.</p>
+                                <p>Esse foi um dos primeiros desafios do professor, seria em relação a criação de um site informativo sobre a historia do android. Treinando então a implementação de imagens, videos e construção geral de um site informativo e bonito.</p>
                             </details>
+                            <p style="margin-top: 10px; font-weight: 500; font-size: 0.8em;">Clique na imagem para abrir o projeto</p>
                         </div>
                     </div>
 
                     <div class="projeto">
-                        <img src="imagens/projeto-cordel.png" alt="" class="foto">
+                        <a href="https://kauamoraispg.github.io/html-css/projeto-cordel/index.html" target="_blank" class="foto" style="background-image: url(/imagens/projeto-cordel.png);"></a>
                         <div class="projeto-info">
                             <p class="periodo">2026</p>
                             <h3 class="titulo">Projeto Cordel</h3>
                             <p>Projeto construido para treinar o uso de efeito parallax em imagens.</p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit adipisci suscipit, earum perspiciatis maxime iste neque harum, consequuntur esse fugit necessitatibus dignissimos commodi voluptates obcaecati, animi repudiandae quia reiciendis dicta.</p>
+                                <p>Esse desafio foi proposto pelo professor do curso para treinar o efeito parallax (imagem fixa no fundo). O desafio foi de criar um site sobre um poema e usar esse efeito.</p>
                             </details>
+                            <p style="margin-top: 10px; font-weight: 500; font-size: 0.8em;">Clique na imagem para abrir o projeto</p>
                         </div>
                     </div>
 
                     <div class="projeto">
-                        <img src="imagens/projeto-login.png" alt="" class="foto">
+                        <a href="https://kauamoraispg.github.io/html-css/projeto-login/index.html" target="_blank" class="foto" style="background-image: url(/imagens/projeto-login.png);"></a>
                         <div class="projeto-info">
                             <p class="periodo">2026</p>
                             <h3 class="titulo">Projeto Login</h3>
-                            <p>Projeto construido para treinar o uso de inputs e treinar fazendo um projeto de login.</p>
+                            <p>Projeto construido para treinar o uso de inputs e a costrução de tela de login.</p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit adipisci suscipit, earum perspiciatis maxime iste neque harum, consequuntur esse fugit necessitatibus dignissimos commodi voluptates obcaecati, animi repudiandae quia reiciendis dicta.</p>
+                                <p>Projeto proposto para ser feito de acordo com um desafio do professor no curso, foi feito inspirado no projeto do professor, mas sem copiar o codigo e o estilo criado por ele.</p>
                             </details>
+                            <p style="margin-top: 10px; font-weight: 500; font-size: 0.8em;">Clique na imagem para abrir o projeto</p>
                         </div>
                     </div>
 
